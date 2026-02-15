@@ -70,12 +70,11 @@
       </profile>
     </profiles>
     <selectionEntryGroups>
-      <selectionEntryGroup id="b565b9ef-feac-5ae0-a864-2c64b94ac533" name="Armas" hidden="false"><entryLinks><entryLink id="61a0ed5e-8d9e-5056-a358-51b096dd179c" name="" hidden="false" targetId="b2f94c90-4d4d-5ce9-9fb9-dfbc0e9f5e67" type="selectionEntry" /><entryLink id="d834a1c3-a0ac-512b-b5c4-9fdef3fa5612" name="" hidden="false" targetId="639f0a00-2bf1-56d8-8c36-d5dcefa3858e" type="selectionEntry" /><entryLink id="536ccb2d-793e-527e-8891-cd9dd1129949" name="" hidden="false" targetId="490ffd47-8a88-5f56-87c2-047aa1fea926" type="selectionEntry" /><entryLink id="4e4f0512-3d9b-550b-a458-3ed077e428bc" name="" hidden="false" targetId="fb3f2566-181f-5708-b85e-bbcba2282cc7" type="selectionEntry" /></entryLinks></selectionEntryGroup>
       <selectionEntryGroup id="29262151-4f16-543a-93fb-651d9bc2c31e" name="Líder" hidden="false"><entryLinks><entryLink id="0bbb22d2-c3be-5c5d-b287-7c206ec8bb15" name="Es el Líder" hidden="false" targetId="10f4cd46-b581-5297-8057-534baaa4377a" type="selectionEntry" /></entryLinks></selectionEntryGroup>
       
       
-    </selectionEntryGroups>
-  </selectionEntry>
+    <selectionEntryGroup id="b565b9ef-feac-5ae0-a864-2c64b94ac533" name="Armas" hidden="false"><entryLinks><entryLink id="f504c208-b05d-5e32-910c-2cfaa47519fa" name="Garras" hidden="false" targetId="1cc29b3f-751d-5c1e-b3d0-dc2df187210b" type="selectionEntry" /><entryLink id="a14d88af-e051-5d9e-afe8-267cebefed51" name="Mandíbulas" hidden="false" targetId="b2f94c90-4d4d-5ce9-9fb9-dfbc0e9f5e67" type="selectionEntry" /><entryLink id="07712284-359e-5e1b-a1fd-6179e6f196d9" name="Maza" hidden="false" targetId="12ea2b00-753e-5c26-95df-29400949d9cf" type="selectionEntry" /><entryLink id="4610aa51-6867-5f5e-8e33-94533e530f6a" name="Filo medio" hidden="false" targetId="fb3f2566-181f-5708-b85e-bbcba2282cc7" type="selectionEntry" /><entryLink id="a1318a72-c13f-56d5-9ccc-6002143132b2" name="Lanza" hidden="false" targetId="d3f4564c-84e8-5d42-a8c0-6abb1c4d4727" type="selectionEntry" /></entryLinks><constraints><constraint id="85fcde65-563b-584a-bfda-d9cb9cf0126e" type="min" value="1.0" field="selections" scope="parent" /><constraint id="5dc7bd4d-2358-56f2-b242-87aa641f848f" type="max" value="2.0" field="selections" scope="parent" /></constraints></selectionEntryGroup><selectionEntryGroup id="50ffa018-b2e6-543d-a3a7-aade3d641cb0" name="Armadura/Equipo" hidden="false"><entryLinks><entryLink id="357505ee-c73e-5cbf-886c-1498e62bbcb0" name="Ropas/Pieles" hidden="false" targetId="ea142133-e94a-5488-8449-f52ad0d3ae31" type="selectionEntry" /><entryLink id="ce0277fa-739a-512e-bc7e-4f855e244e8d" name="Huesos/Pellejos" hidden="false" targetId="515ee353-b1c9-5f5f-b000-689e436ae812" type="selectionEntry" /><entryLink id="dbf6c9ba-34eb-53d8-a961-e8b39c8002fd" name="Cuero/Escamas" hidden="false" targetId="0424428f-b5d6-5ba3-941c-cee2cc519145" type="selectionEntry" /><entryLink id="7b6171d6-ddc5-5aeb-a78d-1e773fc37926" name="Escudo" hidden="false" targetId="6cee4601-3d6a-5324-9199-ec4653a95ee9" type="selectionEntry" /><entryLink id="8fb69bc8-e864-5448-807f-dcb77c7e2f6e" name="Hierbas místicas" hidden="false" targetId="31e75402-6776-56bc-9973-ee5e73438a5e" type="selectionEntry" /></entryLinks></selectionEntryGroup></selectionEntryGroups>
+  <rules><rule id="505779e8-a66e-5f35-97d3-2475d43e6878" name="Reglas de Criatura"><description>Es incapaz de escalar superficies verticales, ni siquiera por una escalerilla, y no podrá Rapiñar un cadáver.</description></rule><rule id="0b451366-e2dc-5a30-9b9c-86390c8a3f57" name="Blindaje"><description>Ninguno (puede equiparse con armaduras listadas).</description></rule></rules></selectionEntry>
   <selectionEntry id="9926d6f0-4723-59de-b502-616cb93e921f" name="Héroe" type="unit" hidden="false">
     <categoryLinks>
       <categoryLink id="6c17e5db-a851-5a7e-a969-022fc197960c" name="Miembros de la banda" hidden="false" targetId="ed682e8c-d739-57e6-a724-39ca35874168" primary="true" />
@@ -301,7 +300,7 @@
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
-    </selectionEntry>
+    <rules><rule id="8a719f4b-3458-5efd-b937-7aa92140a313" name="Requiere Montura"><description>Solo puede seleccionarse si la miniatura tiene la mejora Montura.</description></rule></rules></selectionEntry>
     <selectionEntry id="12ea2b00-753e-5c26-95df-29400949d9cf" name="Maza" type="upgrade" hidden="false">
       <categoryLinks><categoryLink id="fa94b6b8-99f5-56f3-9d3d-8ec8fbcb6827" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
       <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="6.0" /></costs>
@@ -326,7 +325,7 @@
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
-    </selectionEntry>
+    <rules><rule id="200c5261-3ea2-53d1-bbb6-f3e2025c5119" name="Requiere Montura"><description>Solo puede seleccionarse si la miniatura tiene la mejora Montura.</description></rule></rules></selectionEntry>
     <selectionEntry id="8b07242b-7c35-5647-a56e-59f018d6f2f4" name="Jabalina" type="upgrade" hidden="false">
       <categoryLinks><categoryLink id="7d340e38-96d2-5a69-8028-d5e0b4d6e654" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
       <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="8.0" /></costs>
@@ -476,27 +475,27 @@
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
-    </selectionEntry>
+    <rules><rule id="756d134a-b994-5f73-8b9f-5d8126b5c7dd" name="Requiere Montura"><description>Solo puede seleccionarse si la miniatura tiene la mejora Montura.</description></rule></rules></selectionEntry>
     
     <selectionEntry id="ea142133-e94a-5488-8449-f52ad0d3ae31" name="Ropas/Pieles" type="upgrade" hidden="false">
       <categoryLinks><categoryLink id="e17e0e5e-6449-5ab0-8345-fbe1cf8e5f10" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /></costs>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="3.0" /></costs>
       <rules><rule id="a6ebad11-25aa-537e-b29b-58df2304b37e" name="Ropas/Pieles"><description>Blindaje 2</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="515ee353-b1c9-5f5f-b000-689e436ae812" name="Huesos/Pellejos" type="upgrade" hidden="false">
       <categoryLinks><categoryLink id="4e36bbf7-b7f4-5841-8846-9af6852816b3" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /></costs>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="7.0" /></costs>
       <rules><rule id="2a09b70c-ba50-5163-8d73-2312cf15312e" name="Huesos/Pellejos"><description>Blindaje 3</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="0424428f-b5d6-5ba3-941c-cee2cc519145" name="Cuero/Escamas" type="upgrade" hidden="false">
       <categoryLinks><categoryLink id="00c97a23-fd16-5dd7-a414-c3a0d568c278" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /></costs>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="12.0" /></costs>
       <rules><rule id="545eea35-dee8-54e8-8f6e-4045e0f7d2ca" name="Cuero/Escamas"><description>Blindaje 4</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="6cee4601-3d6a-5324-9199-ec4653a95ee9" name="Escudo" type="upgrade" hidden="false">
       <categoryLinks><categoryLink id="a1a0fc3f-009b-5349-a5c3-1781e0946782" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /></costs>
-      <rules><rule id="707ae865-3f09-529a-a0d9-3ea633ecf751" name="Escudo"><description>+2 Blindaje en CaC, -1 Combate (si se usa). Cobertura +2 vs disparos.</description></rule></rules>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="6.0" /></costs>
+      <rules><rule id="707ae865-3f09-529a-a0d9-3ea633ecf751" name="Escudo"><description>+2 Blindaje en CaC, -1 Combate (si se usa). Cobertura +2 vs disparos.</description></rule><rule id="dd21f5d5-cdaf-5d42-bf2a-907124889f1c" name="Requiere Montura"><description>Solo puede seleccionarse si la miniatura tiene la mejora Montura.</description></rule></rules>
     </selectionEntry>
     
     <selectionEntry id="f77377be-a748-56e0-b021-911fee8cd33f" name="ALAS" type="upgrade" hidden="false">
@@ -700,5 +699,5 @@
       <categoryLinks><categoryLink id="5818862f-6329-5563-bac0-1a923d3f3f40" name="Líder" hidden="false" targetId="36d9f929-1520-51e5-bb4c-32d94dd7e108" primary="false" /></categoryLinks>
       <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /></costs>
     </selectionEntry>
-  </sharedSelectionEntries>
+  <selectionEntry id="31e75402-6776-56bc-9973-ee5e73438a5e" name="Hierbas místicas" type="upgrade" hidden="false"><costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="8.0" /></costs><rules><rule id="acedd103-c4e1-5f63-ae92-3af522d5c10c" name="Hierbas místicas"><description>Equipo. 8 puntos cada una. (Efecto según reglamento).</description></rule></rules></selectionEntry></sharedSelectionEntries>
 </catalogue>
