@@ -18,9 +18,26 @@
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="5849b8c0-b1d3-5b6d-ab11-93b33b1e1434" name="Unidad" hidden="false"/>
-    <categoryEntry id="6c351d76-d81d-5ad6-9c5e-057c3bcb9a30" name="Líder" hidden="false">
-      <constraints><constraint id="b246079f-eb54-56fe-9e9b-6f98d128f9f0" type="max" value="1.0" field="selections" scope="roster"/></constraints>
+    <categoryEntry id="f90ad3df-a959-56e8-b71a-865df35c2636" name="Configuración" hidden="false"/>
+    <categoryEntry id="1bc13b4d-5964-5988-b7b1-e9b9463e61f9" name="Reglas de la banda" hidden="false"/>
+    <categoryEntry id="ed682e8c-d739-57e6-a724-39ca35874168" name="Miembros de la banda" hidden="false"/>
+    <categoryEntry id="9a994c26-7687-51a4-bce9-fe4c495bd79a" name="Equipo de la banda" hidden="false"/>
+    <categoryEntry id="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" name="Mejoras" hidden="false"/>
+    <categoryEntry id="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" name="Hechizos" hidden="false"/>
+    <categoryEntry id="36d9f929-1520-51e5-bb4c-32d94dd7e108" name="Líder" hidden="false">
+      <constraints>
+        <constraint id="b246079f-eb54-56fe-9e9b-6f98d128f9f0" type="max" value="1.0" field="selections" scope="roster"/>
+      </constraints>
     </categoryEntry>
   </categoryEntries>
+  <forceEntries>
+    <forceEntry id="d99c4873-3913-5ac3-80e3-46c20a176639" name="Banda" hidden="false">
+      <categoryLinks>
+        <categoryLink id="6773eb72-052d-563c-9b47-6d9eac7ebe9f" name="Configuración" hidden="false" targetId="f90ad3df-a959-56e8-b71a-865df35c2636"/>
+        <categoryLink id="52f84f45-9bb3-583f-a0d8-0cfd5009c2e1" name="Reglas de la banda" hidden="false" targetId="1bc13b4d-5964-5988-b7b1-e9b9463e61f9"/>
+        <categoryLink id="65e2b815-178d-5292-a055-11fea52fa6c9" name="Miembros de la banda" hidden="false" targetId="ed682e8c-d739-57e6-a724-39ca35874168" primary="false"/>
+        <categoryLink id="87d4eac2-ea15-55a7-a19b-ae6965aacf73" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
 </gameSystem>
