@@ -1,40 +1,32 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="e27c-7301-7426-5156" name="Warmonger" revision="1" battleScribeVersion="2.03" type="gameSystem" authorName="malallet" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<?xml version='1.0' encoding='utf-8'?>
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="e27c-7301-7426-5156" name="Warmonger" revision="1" battleScribeVersion="2.03" type="gameSystem" authorName="malallet">
   <costTypes>
-    <costType id="cf45-26f3-a369-5cd3" name="Puntos" defaultCostLimit="-1" hidden="false"/>
-    <costType id="f356-2d86-33f2-54d3" name="PD" defaultCostLimit="-1" hidden="false"/>
+    <costType id="cf45-26f3-a369-5cd3" name="Puntos" defaultCostLimit="-1" hidden="false" />
+    <costType id="f356-2d86-33f2-54d3" name="PD" defaultCostLimit="-1" hidden="false" />
   </costTypes>
   <profileTypes>
     <profileType id="e97e-3b36-64f9-5f19" name="Perfil">
       <characteristicTypes>
-        <characteristicType id="3268-c7e8-a2cb-50bf" name="Agilidad"/><characteristicType id="29cd-abc5-a63d-544c" name="Combate"/><characteristicType id="f56a-0551-a7d0-587b" name="Precisión"/><characteristicType id="b74f-029b-42be-5ce5" name="Fuerza"/><characteristicType id="abac-eacb-0211-52eb" name="Dureza"/><characteristicType id="305e-ca72-b153-5716" name="Coraje"/><characteristicType id="44ee-e0ad-b367-5f7f" name="PD"/>
+        <characteristicType id="3268-c7e8-a2cb-50bf" name="Agilidad" /><characteristicType id="29cd-abc5-a63d-544c" name="Combate" /><characteristicType id="f56a-0551-a7d0-587b" name="Precisión" /><characteristicType id="b74f-029b-42be-5ce5" name="Fuerza" /><characteristicType id="abac-eacb-0211-52eb" name="Dureza" /><characteristicType id="305e-ca72-b153-5716" name="Coraje" /><characteristicType id="44ee-e0ad-b367-5f7f" name="PD" />
       </characteristicTypes>
     </profileType>
     <profileType id="6d42-1949-1689-5d6c" name="Arma">
       <characteristicTypes>
-        <characteristicType id="5e7c-8499-781b-577d" name="Fuerza"/><characteristicType id="7e79-501d-d634-5b78" name="Penetración"/><characteristicType id="1e7a-8f74-75f8-5c3c" name="Alcance"/><characteristicType id="ad64-1590-3060-56f8" name="Reglas"/>
+        <characteristicType id="5e7c-8499-781b-577d" name="Fuerza" /><characteristicType id="7e79-501d-d634-5b78" name="Penetración" /><characteristicType id="1e7a-8f74-75f8-5c3c" name="Alcance" /><characteristicType id="ad64-1590-3060-56f8" name="Reglas" />
       </characteristicTypes>
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="3810-0dc3-a6f3-56c7" name="Configuración" hidden="false"/>
-    <categoryEntry id="67fb-5cb8-7892-5275" name="Reglas de la banda" hidden="false"/>
-    <categoryEntry id="9236-971e-6ff9-5fa4" name="Miembros de la banda" hidden="false"/>
-    <categoryEntry id="11ce-7309-8b35-53e6" name="Equipo de la banda" hidden="false"/>
+    <categoryEntry id="3810-0dc3-a6f3-56c7" name="Configuración" hidden="false" />
+    <categoryEntry id="67fb-5cb8-7892-5275" name="Reglas de la banda" hidden="false" />
+    <categoryEntry id="9236-971e-6ff9-5fa4" name="Miembros de la banda" hidden="false" />
+    <categoryEntry id="11ce-7309-8b35-53e6" name="Equipo de la banda" hidden="false" />
     <categoryEntry id="6e8d-9fd6-b430-5c2a" name="Líder" hidden="false">
       <constraints>
-        <constraint id="0641-2df9-3979-5efd" type="max" value="1" field="selections" scope="roster"/>
+        <constraint id="0641-2df9-3979-5efd" type="max" value="1" field="selections" scope="roster" />
       </constraints>
     </categoryEntry>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="af39-90f4-9c7b-56c2" name="Banda" hidden="false">
-      <categoryLinks>
-        <categoryLink id="2b59-183a-3816-5d1a" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7"/>
-        <categoryLink id="79cf-c376-37c3-5bca" name="Reglas de la banda" hidden="false" targetId="67fb-5cb8-7892-5275"/>
-        <categoryLink id="ceae-276a-0f3b-5b6d" name="Miembros de la banda" hidden="false" targetId="9236-971e-6ff9-5fa4" primary="false"/>
-        <categoryLink id="c8da-1579-9813-53a8" name="Equipo de la banda" hidden="false" targetId="11ce-7309-8b35-53e6" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-  </forceEntries>
+    <forceEntry id="c4aa3186-5e89-4b3d-b85d-32f3ad0943ff" name="Banda (Hasta 100)" hidden="false"><categoryLinks><categoryLink id="5d7dba67-15fb-417f-b209-e0b589080bf0" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" /><categoryLink id="9196f631-fdab-43bb-990b-480c89380c14" name="Reglas de la banda" hidden="false" targetId="67fb-5cb8-7892-5275" /><categoryLink id="c90348a9-0f67-42dc-ba6e-23b74479185e" name="Miembros de la banda" hidden="false" targetId="9236-971e-6ff9-5fa4" /><categoryLink id="efa18647-0cf0-4d58-8e2e-73df1bac718d" name="Equipo de la banda" hidden="false" targetId="11ce-7309-8b35-53e6" /></categoryLinks><constraints><constraint id="80fa76c7-59cc-4421-b414-33dc9b64c618" type="max" value="3" field="selections" scope="force" includeChildSelections="false" /><constraint id="0a80794a-bf8a-499e-8c79-98b5301ba1ef" type="max" value="100" field="costs" scope="force" includeChildSelections="true" costTypeId="cf45-26f3-a369-5cd3" /></constraints></forceEntry><forceEntry id="62b661f6-067f-4bd2-b964-9804ea035b49" name="Banda (101 a 200)" hidden="false"><categoryLinks><categoryLink id="f88c6b90-9f0c-4bd4-b0fc-d094982ec8fb" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" /><categoryLink id="939cc70b-9a36-471e-8980-044073bb6f8a" name="Reglas de la banda" hidden="false" targetId="67fb-5cb8-7892-5275" /><categoryLink id="9720692c-a4ae-4497-b730-2895c947e9e7" name="Miembros de la banda" hidden="false" targetId="9236-971e-6ff9-5fa4" /><categoryLink id="b7f994cd-17a5-4e78-b804-f77ad048622b" name="Equipo de la banda" hidden="false" targetId="11ce-7309-8b35-53e6" /></categoryLinks><constraints><constraint id="352f9219-8618-42e3-bc3a-f2c88fb1a09d" type="max" value="6" field="selections" scope="force" includeChildSelections="false" /><constraint id="d8e4d86b-888b-498f-9665-9918d2de63a4" type="max" value="200" field="costs" scope="force" includeChildSelections="true" costTypeId="cf45-26f3-a369-5cd3" /></constraints></forceEntry><forceEntry id="2c968f46-84dd-4eac-8748-31ae8925ecb0" name="Banda (201 a 300)" hidden="false"><categoryLinks><categoryLink id="54c0838d-5abf-41c1-9844-ddc32aebcefa" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" /><categoryLink id="b8f4480e-4dca-4830-aba7-63d1a258858f" name="Reglas de la banda" hidden="false" targetId="67fb-5cb8-7892-5275" /><categoryLink id="f388583a-b8f9-4b55-87e2-3801be96ecfd" name="Miembros de la banda" hidden="false" targetId="9236-971e-6ff9-5fa4" /><categoryLink id="70276b02-f580-4a6b-a9bb-97466f293f38" name="Equipo de la banda" hidden="false" targetId="11ce-7309-8b35-53e6" /></categoryLinks><constraints><constraint id="f1fa649e-bcb7-4d80-ae98-be946f24ae25" type="max" value="9" field="selections" scope="force" includeChildSelections="false" /><constraint id="f44c319d-557b-4f2f-a937-6a4219b4572b" type="max" value="300" field="costs" scope="force" includeChildSelections="true" costTypeId="cf45-26f3-a369-5cd3" /></constraints></forceEntry><forceEntry id="07ebd9c8-243a-4442-9cba-e5af88666a3e" name="Banda (301 a 400)" hidden="false"><categoryLinks><categoryLink id="6ec7d106-b347-4b0c-8d53-4754258feea5" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" /><categoryLink id="adf81981-a9e2-4bdf-9b15-b29f2f0b1e7b" name="Reglas de la banda" hidden="false" targetId="67fb-5cb8-7892-5275" /><categoryLink id="96da4d6d-16ee-4286-8d64-eeb97034835e" name="Miembros de la banda" hidden="false" targetId="9236-971e-6ff9-5fa4" /><categoryLink id="2f8fc966-0e77-45f6-8343-e7249bc56c1e" name="Equipo de la banda" hidden="false" targetId="11ce-7309-8b35-53e6" /></categoryLinks><constraints><constraint id="fc773f34-f3cd-4550-b151-a070cff34517" type="max" value="12" field="selections" scope="force" includeChildSelections="false" /><constraint id="ceeaed1c-f18b-4402-875b-e0483aa8768e" type="max" value="400" field="costs" scope="force" includeChildSelections="true" costTypeId="cf45-26f3-a369-5cd3" /></constraints></forceEntry><forceEntry id="6fb391fe-28b6-493c-bae0-e98766b5d1a2" name="Banda (401 a 500)" hidden="false"><categoryLinks><categoryLink id="26ad09d5-b615-4262-a576-0f28dd13bc2e" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" /><categoryLink id="9e72dfe0-83e9-4e35-b026-9b2c3a5f1f1f" name="Reglas de la banda" hidden="false" targetId="67fb-5cb8-7892-5275" /><categoryLink id="ebd63c63-2971-48c0-85e9-b9544b3932b4" name="Miembros de la banda" hidden="false" targetId="9236-971e-6ff9-5fa4" /><categoryLink id="fb8b5465-5cfa-4eb4-aa45-714d730804d5" name="Equipo de la banda" hidden="false" targetId="11ce-7309-8b35-53e6" /></categoryLinks><constraints><constraint id="9e5870a8-f941-4bc1-aee1-1cd91cc4ff5d" type="max" value="15" field="selections" scope="force" includeChildSelections="false" /><constraint id="05ef9c11-09ed-4183-ab2c-d896b13dab57" type="max" value="500" field="costs" scope="force" includeChildSelections="true" costTypeId="cf45-26f3-a369-5cd3" /></constraints></forceEntry></forceEntries>
 </gameSystem>
