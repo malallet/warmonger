@@ -94,7 +94,7 @@
         </selectionEntryGroup>
         
         
-      </selectionEntryGroups>
+      <selectionEntryGroup id="bc8b-996c-6048-50b3" name="Mejoras" hidden="false"><entryLinks><entryLink id="84b2-138d-1eee-557b" name="ALAS" hidden="false" targetId="3228-f57e-d4a6-575b" type="selectionEntry" /><entryLink id="6157-62ad-29f5-5516" name="ALIENTO" hidden="false" targetId="5f8b-c7ed-f7f6-5a67" type="selectionEntry" /><entryLink id="5347-b4ec-a841-5b61" name="ASPECTO ATROZ" hidden="false" targetId="d51f-d04c-2d22-5ce3" type="selectionEntry" /><entryLink id="375a-2e92-9f8c-52d2" name="BRUTAL" hidden="false" targetId="fb57-39fc-9a76-53f6" type="selectionEntry" /><entryLink id="3ea2-7db8-b362-5f55" name="CHUPASANGRES" hidden="false" targetId="f3ce-9b26-b6d5-550f" type="selectionEntry" /><entryLink id="1dd8-0596-d990-5503" name="CONSTRICTORA" hidden="false" targetId="c0b8-eb41-24ed-5eef" type="selectionEntry" /><entryLink id="f9ce-86f9-b4da-5f89" name="FIRME" hidden="false" targetId="81b6-6e74-3005-5f68" type="selectionEntry" /><entryLink id="5a60-c3ba-dcc0-5a57" name="MONTURA" hidden="false" targetId="036e-1174-bf7b-5569" type="selectionEntry" /><entryLink id="375e-f79a-c09b-510b" name="MÚLTIPLES CABEZAS" hidden="false" targetId="acfd-c059-e4bd-5fa8" type="selectionEntry" /><entryLink id="aa11-826c-7940-5578" name="TREPADORA" hidden="false" targetId="a299-24e2-c968-5dea" type="selectionEntry" /><entryLink id="12f5-5b07-8b15-5fdb" name="VELOZ" hidden="false" targetId="5d4a-0747-6919-54a5" type="selectionEntry" /><entryLink id="69cf-1004-f399-55e5" name="VENENO" hidden="false" targetId="15e8-df67-22c1-5096" type="selectionEntry" /></entryLinks></selectionEntryGroup></selectionEntryGroups>
     </selectionEntry>
     <selectionEntry id="e725-aceb-fbc3-5f9c" name="Héroe" type="model" import="true" hidden="false">
       <categoryLinks>
@@ -120,7 +120,7 @@
         </selectionEntryGroup>
         
         
-      </selectionEntryGroups>
+      <selectionEntryGroup id="85d6-0cbc-eb81-5197" name="Mejoras" hidden="false"><entryLinks><entryLink id="475a-fa31-4da8-573d" name="CRUEL" hidden="false" targetId="f586-48b0-d44f-58c9" type="selectionEntry" /><entryLink id="fc1f-77fe-55a9-57d2" name="IMPÁVIDO" hidden="false" targetId="20d5-077e-733c-5ab8" type="selectionEntry" /><entryLink id="e1f6-7b1d-81ee-59af" name="INICIADO" hidden="false" targetId="9397-d513-fbb4-579e" type="selectionEntry" /><entryLink id="af15-a01b-5cfa-5de2" name="INSPIRADOR" hidden="false" targetId="6f8c-ff5f-20dd-5b91" type="selectionEntry" /><entryLink id="bc36-39c4-7be9-5409" name="INSTINTO DE SUPERVIVENCIA" hidden="false" targetId="861f-338b-2aaf-5c6f" type="selectionEntry" /><entryLink id="0655-1769-2d2b-563a" name="MONTADO" hidden="false" targetId="85e9-91b3-6793-5fc4" type="selectionEntry" /><entryLink id="0534-3b69-a6e8-5001" name="OBSTINADO" hidden="false" targetId="83d3-58cd-1a23-55ad" type="selectionEntry" /><entryLink id="265f-586c-40e1-59f9" name="PIEL CURTIDA" hidden="false" targetId="b526-2432-1be4-53aa" type="selectionEntry" /><entryLink id="e8a0-3881-5cee-509b" name="PRESENCIA IMPONENTE" hidden="false" targetId="c245-a0d6-7e1f-57da" type="selectionEntry" /><entryLink id="58f7-2f64-18e8-58fd" name="RESISTENTE" hidden="false" targetId="8739-f720-e4ce-5687" type="selectionEntry" /><entryLink id="72a4-8679-afae-5788" name="SALVAJE" hidden="false" targetId="07be-fca7-d174-5c22" type="selectionEntry" /><entryLink id="300e-9336-4578-5df9" name="TESTARUDO" hidden="false" targetId="d46a-b039-c2ff-5b37" type="selectionEntry" /><entryLink id="c096-b3d2-d56e-5c2d" name="ÁGIL" hidden="false" targetId="5736-0c94-34a5-531f" type="selectionEntry" /></entryLinks><constraints><constraint id="346c-11e1-6972-5938" type="max" value="2" field="selections" scope="parent" /></constraints></selectionEntryGroup></selectionEntryGroups>
     </selectionEntry>
     <selectionEntry id="94ae-71a1-075a-55c1" name="Hechicero" type="model" import="true" hidden="false">
       <categoryLinks>
@@ -401,103 +401,103 @@
     <selectionEntry id="3228-f57e-d4a6-575b" name="ALAS" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="15.0" /></costs>
       <rules><rule id="2985-4edf-1558-5906" name="ALAS"><description /></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="3218-8fe9-cf66-527b" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="5f8b-c7ed-f7f6-5a67" name="ALIENTO" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="15.0" /></costs>
       <rules><rule id="765d-a533-0c91-5f5f" name="ALIENTO"><description /></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="27bc-e7c0-f1b0-5e3a" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="d51f-d04c-2d22-5ce3" name="ASPECTO ATROZ" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="12.0" /></costs>
       <rules><rule id="1f7b-4b86-548c-5b3d" name="ASPECTO ATROZ"><description /></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="5053-df2c-270e-5262" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="fb57-39fc-9a76-53f6" name="BRUTAL" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="8.0" /></costs>
       <rules><rule id="73aa-b1e0-3691-5654" name="BRUTAL"><description /></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="5b97-54bf-33ac-5ad9" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="f3ce-9b26-b6d5-550f" name="CHUPASANGRES" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></costs>
       <rules><rule id="60c0-e01b-db08-53d6" name="CHUPASANGRES"><description /></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="b2f0-3946-de91-5ba4" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="c0b8-eb41-24ed-5eef" name="CONSTRICTORA" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></costs>
       <rules><rule id="4280-e795-4f1f-519f" name="CONSTRICTORA"><description /></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="ac5d-7c43-18f2-5853" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="81b6-6e74-3005-5f68" name="FIRME" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></costs>
       <rules><rule id="7393-4017-261f-51dc" name="FIRME"><description /></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="1482-910a-e1b7-5837" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="036e-1174-bf7b-5569" name="MONTURA" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></costs>
       <rules><rule id="71ce-d0c4-16b1-561a" name="MONTURA"><description /></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="b876-92b5-69ea-549f" type="max" value="99" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="acfd-c059-e4bd-5fa8" name="MÚLTIPLES CABEZAS" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></costs>
       <rules><rule id="8333-a584-0061-5ab3" name="MÚLTIPLES CABEZAS"><description /></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="e64b-8ba9-d5c3-5b29" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="a299-24e2-c968-5dea" name="TREPADORA" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></costs>
       <rules><rule id="57bb-08ae-6956-564c" name="TREPADORA"><description /></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="ae55-fa66-3c80-57dd" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="5d4a-0747-6919-54a5" name="VELOZ" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></costs>
       <rules><rule id="3105-f7e7-fb04-5418" name="VELOZ"><description /></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="8fb5-35ad-0f10-57bf" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="15e8-df67-22c1-5096" name="VENENO" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></costs>
       <rules><rule id="2f55-cc6b-d39d-506e" name="VENENO"><description /></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="3906-5ad1-65a6-5451" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="f586-48b0-d44f-58c9" name="CRUEL" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></costs>
       <rules><rule id="84d2-f536-f042-503d" name="CRUEL"><description /></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="35c4-a254-4534-5ec9" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="20d5-077e-733c-5ab8" name="IMPÁVIDO" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></costs>
       <rules><rule id="fd61-5b34-8b8d-5273" name="IMPÁVIDO"><description /></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="5a91-19e9-3255-5c5e" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="9397-d513-fbb4-579e" name="INICIADO" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="8.0" /></costs>
       <rules><rule id="7e95-c1cf-c07e-547d" name="INICIADO"><description /></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="25e9-057f-02dd-5a24" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="6f8c-ff5f-20dd-5b91" name="INSPIRADOR" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></costs>
       <rules><rule id="2034-701c-e522-54ac" name="INSPIRADOR"><description /></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="d020-5e9d-0f0c-56fd" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="861f-338b-2aaf-5c6f" name="INSTINTO DE SUPERVIVENCIA" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></costs>
       <rules><rule id="e923-eefa-97e3-5820" name="INSTINTO DE SUPERVIVENCIA"><description /></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="ca8c-7935-1605-55bf" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="85e9-91b3-6793-5fc4" name="MONTADO" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="15.0" /></costs>
       <rules><rule id="0f22-bc19-9f1c-548d" name="MONTADO"><description /></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="e3a1-b2c2-6b20-53c4" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="83d3-58cd-1a23-55ad" name="OBSTINADO" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></costs>
       <rules><rule id="22dd-8ddb-a680-56fd" name="OBSTINADO"><description /></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="18c9-c273-abbd-5c79" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="b526-2432-1be4-53aa" name="PIEL CURTIDA" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="18.0" /></costs>
       <rules><rule id="a315-c85d-18ef-5b9d" name="PIEL CURTIDA"><description>+2 Blindaje (se acumula con equipo).</description></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="e9b2-a760-2359-5a2d" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="c245-a0d6-7e1f-57da" name="PRESENCIA IMPONENTE" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="15.0" /></costs>
       <rules><rule id="ced9-f6d5-2c66-5b38" name="PRESENCIA IMPONENTE"><description>Enemigos a 10 cm o menos: 1 complicación a Disparo y Combate.</description></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="6e6d-582e-f30b-5595" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="8739-f720-e4ce-5687" name="RESISTENTE" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></costs>
       <rules><rule id="5dbc-3857-212a-5dea" name="RESISTENTE"><description>+1 Dureza.</description></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="8675-82d2-3d3f-5c8a" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="07be-fca7-d174-5c22" name="SALVAJE" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></costs>
       <rules><rule id="9067-967c-c577-5c8b" name="SALVAJE"><description>Puede completar su activación tras ser Abatido; al final queda baja definitiva si es último turno o es Abatido de nuevo. No genera PD en su siguiente activación tras ser Abatido.</description></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="1712-0792-eeb7-54ab" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="d46a-b039-c2ff-5b37" name="TESTARUDO" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></costs>
       <rules><rule id="5166-65de-797d-548d" name="TESTARUDO"><description>Si saca 1 en tirada enfrentada de Combate, puede repetirla.</description></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="f2e1-6a0c-0b38-572c" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="5736-0c94-34a5-531f" name="ÁGIL" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></costs>
       <rules><rule id="d785-fce6-6c66-5883" name="ÁGIL"><description /></rule></rules>
-    </selectionEntry>
+    <constraints><constraint id="e9e7-fc23-9cbd-5671" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     
     <selectionEntry id="64b6-d49b-49c9-5edb" name="Abrasar (fuego) (Elementos)" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="1.0" /></costs>
