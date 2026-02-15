@@ -429,7 +429,7 @@
     <selectionEntry id="036e-1174-bf7b-5569" name="MONTURA" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></costs>
       <rules><rule id="71ce-d0c4-16b1-561a" name="MONTURA"><description /></rule></rules>
-    <constraints><constraint id="b876-92b5-69ea-549f" type="max" value="99" field="selections" scope="parent" /></constraints></selectionEntry>
+    <constraints><constraint id="533d6b72-b6a5-4854-8f69-c870fb541215" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="acfd-c059-e4bd-5fa8" name="MÚLTIPLES CABEZAS" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></costs>
       <rules><rule id="8333-a584-0061-5ab3" name="MÚLTIPLES CABEZAS"><description /></rule></rules>
