@@ -25,7 +25,7 @@
           
         <constraints><constraint id="d351be5a-6bf1-452c-85a7-ba4bad6f0289" type="min" value="0" field="selections" scope="parent" /><constraint id="2f6b5a11-caf8-4a27-a8ce-d16891bb1954" type="max" value="2" field="selections" scope="parent" /></constraints></selectionEntryGroup>
         <selectionEntryGroup id="e864-109c-76b6-5b70" name="Armadura/Equipo" hidden="false">
-          <entryLinks><entryLink id="0fea8eb9-3148-43f4-aa50-ccd2c9b8d77f" import="true" name="Escudo" hidden="false" type="selectionEntry" targetId="4920-8ade-930d-5ece"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="auto-max1" type="max" /></constraints></entryLink><entryLink id="d83e3b6c-4883-4603-821d-14e04ee3602f" import="true" name="Hierbas místicas" hidden="false" type="selectionEntry" targetId="d21a-cb0e-6266-55b0"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="auto-max1" type="max" /></constraints></entryLink></entryLinks>
+          <entryLinks><entryLink id="0fea8eb9-3148-43f4-aa50-ccd2c9b8d77f" import="true" name="Escudo" hidden="false" type="selectionEntry" targetId="4920-8ade-930d-5ece"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="auto-max1" type="max" /></constraints></entryLink><entryLink id="d83e3b6c-4883-4603-821d-14e04ee3602f" import="true" name="Hierbas místicas" hidden="false" type="selectionEntry" targetId="d21a-cb0e-6266-55b0"><constraints><constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="auto-max1" type="max" /></constraints></entryLink></entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="5e0e-8d8b-0add-5d7e" name="Líder" hidden="false">
           <entryLinks><entryLink id="0488-ce5e-2ae7-5131" name="Es el Líder" hidden="false" targetId="996f-03d3-d905-5948" type="selectionEntry" import="true" /></entryLinks>
@@ -51,7 +51,7 @@
           
         <constraints><constraint id="99b0492d-4b62-4996-8354-865f845e7c6d" type="min" value="0" field="selections" scope="parent" /><constraint id="aeae4385-815e-42ce-bde4-20551aed7c99" type="max" value="2" field="selections" scope="parent" /></constraints></selectionEntryGroup>
         <selectionEntryGroup id="0329-0d9e-d721-50d9" name="Armadura/Equipo" hidden="false">
-          <entryLinks><entryLink id="3a417e59-b7ca-4dc1-868a-7cbb134a3d72" import="true" name="Escudo" hidden="false" type="selectionEntry" targetId="4920-8ade-930d-5ece"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="auto-max1" type="max" /></constraints></entryLink><entryLink id="6125bf7d-a0a4-46be-adf2-78abe19d407b" import="true" name="Hierbas místicas" hidden="false" type="selectionEntry" targetId="d21a-cb0e-6266-55b0"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="auto-max1" type="max" /></constraints></entryLink></entryLinks>
+          <entryLinks><entryLink id="3a417e59-b7ca-4dc1-868a-7cbb134a3d72" import="true" name="Escudo" hidden="false" type="selectionEntry" targetId="4920-8ade-930d-5ece"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="auto-max1" type="max" /></constraints></entryLink><entryLink id="6125bf7d-a0a4-46be-adf2-78abe19d407b" import="true" name="Hierbas místicas" hidden="false" type="selectionEntry" targetId="d21a-cb0e-6266-55b0"><constraints><constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="auto-max1" type="max" /></constraints></entryLink></entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="4a95-47da-4d32-5e63" name="Líder" hidden="false">
           <entryLinks><entryLink id="d8f4-1375-5c75-5dc9" name="Es el Líder" hidden="false" targetId="996f-03d3-d905-5948" type="selectionEntry" import="true" /></entryLinks>
@@ -77,7 +77,7 @@
           
           <constraints><constraint id="91971964-618d-4f5c-a28f-a73b40da9678" type="min" value="0" field="selections" scope="parent" /><constraint id="a4e49d96-5006-49bd-915e-1176702afc0e" type="max" value="2" field="selections" scope="parent" /></constraints></selectionEntryGroup>
         <selectionEntryGroup id="9aab-38b6-eb59-5df4" name="Armadura/Equipo" hidden="false">
-          <entryLinks><entryLink id="9405819e-bf20-4e7e-9bab-cb555a28dc3f" import="true" name="Hierbas místicas" hidden="false" type="selectionEntry" targetId="d21a-cb0e-6266-55b0"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="auto-max1" type="max" /></constraints></entryLink></entryLinks>
+          <entryLinks><entryLink id="9405819e-bf20-4e7e-9bab-cb555a28dc3f" import="true" name="Hierbas místicas" hidden="false" type="selectionEntry" targetId="d21a-cb0e-6266-55b0"><constraints><constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="auto-max1" type="max" /></constraints></entryLink></entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="a193-82fe-de8c-5a8f" name="Líder" hidden="false">
           <entryLinks><entryLink id="d100-8f6b-0167-5483" name="Es el Líder" hidden="false" targetId="996f-03d3-d905-5948" type="selectionEntry" import="true" /></entryLinks>
@@ -103,7 +103,7 @@
           
         <constraints><constraint id="6f91647b-0a1d-45e9-992c-022558ff0adf" type="min" value="0" field="selections" scope="parent" /><constraint id="438afcea-3e24-406a-b440-b8363d06f190" type="max" value="2" field="selections" scope="parent" /></constraints></selectionEntryGroup>
         <selectionEntryGroup id="bb92-8ebe-acc4-5054" name="Armadura/Equipo" hidden="false">
-          <entryLinks><entryLink id="78527f37-8bfa-429b-abbc-ac51be8bf494" import="true" name="Escudo" hidden="false" type="selectionEntry" targetId="4920-8ade-930d-5ece"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="auto-max1" type="max" /></constraints></entryLink><entryLink id="1f9063c2-bf9a-411a-b4a5-d512c8d773dc" import="true" name="Hierbas místicas" hidden="false" type="selectionEntry" targetId="d21a-cb0e-6266-55b0"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="auto-max1" type="max" /></constraints></entryLink></entryLinks>
+          <entryLinks><entryLink id="78527f37-8bfa-429b-abbc-ac51be8bf494" import="true" name="Escudo" hidden="false" type="selectionEntry" targetId="4920-8ade-930d-5ece"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="auto-max1" type="max" /></constraints></entryLink><entryLink id="1f9063c2-bf9a-411a-b4a5-d512c8d773dc" import="true" name="Hierbas místicas" hidden="false" type="selectionEntry" targetId="d21a-cb0e-6266-55b0"><constraints><constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="auto-max1" type="max" /></constraints></entryLink></entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="9518-fd29-34af-534f" name="Líder" hidden="false">
           <entryLinks><entryLink id="584f-f3e6-89ab-534f" name="Es el Líder" hidden="false" targetId="996f-03d3-d905-5948" type="selectionEntry" import="true" /></entryLinks>
@@ -129,7 +129,7 @@
           
         <constraints><constraint id="40ca695e-d5eb-4424-93cf-aff34e2b41cb" type="min" value="0" field="selections" scope="parent" /><constraint id="2812e847-aa55-4642-a5f1-4c9d5d8c00d9" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntryGroup>
         <selectionEntryGroup id="3691-0ee4-83fa-5908" name="Armadura/Equipo" hidden="false">
-          <entryLinks><entryLink id="e89f22ee-8994-433c-8c50-0db8598ce7b2" import="true" name="Hierbas místicas" hidden="false" type="selectionEntry" targetId="d21a-cb0e-6266-55b0"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="auto-max1" type="max" /></constraints></entryLink></entryLinks>
+          <entryLinks><entryLink id="e89f22ee-8994-433c-8c50-0db8598ce7b2" import="true" name="Hierbas místicas" hidden="false" type="selectionEntry" targetId="d21a-cb0e-6266-55b0"><constraints><constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="auto-max1" type="max" /></constraints></entryLink></entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="b8d7-538f-08cc-510a" name="Líder" hidden="false">
           <entryLinks><entryLink id="43f9-0db6-aa7e-52a8" name="Es el Líder" hidden="false" targetId="996f-03d3-d905-5948" type="selectionEntry" import="true"><modifiers><modifier type="set" value="true" field="hidden"><conditions><condition type="atLeast" value="1" field="selections" scope="parent" childId="66a86271-534d-4fb2-b595-bc916191c8fa" shared="true" includeChildSelections="true" includeChildForces="true" /></conditions></modifier></modifiers></entryLink></entryLinks>
@@ -155,7 +155,7 @@
           
         <constraints><constraint id="40ca695e-d5eb-4424-93cf-aff34e2b41cb" type="min" value="0" field="selections" scope="parent" /><constraint id="2812e847-aa55-4642-a5f1-4c9d5d8c00d9" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntryGroup>
         <selectionEntryGroup id="3691-0ee4-83fa-5908" name="Armadura/Equipo" hidden="false">
-          <entryLinks><entryLink id="e89f22ee-8994-433c-8c50-0db8598ce7b2" import="true" name="Hierbas místicas" hidden="false" type="selectionEntry" targetId="d21a-cb0e-6266-55b0"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="auto-max1" type="max" /></constraints></entryLink></entryLinks>
+          <entryLinks><entryLink id="e89f22ee-8994-433c-8c50-0db8598ce7b2" import="true" name="Hierbas místicas" hidden="false" type="selectionEntry" targetId="d21a-cb0e-6266-55b0"><constraints><constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="auto-max1" type="max" /></constraints></entryLink></entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="b8d7-538f-08cc-510a" name="Líder" hidden="false">
           <entryLinks><entryLink id="43f9-0db6-aa7e-52a8" name="Es el Líder" hidden="false" targetId="996f-03d3-d905-5948" type="selectionEntry" import="true"><modifiers><modifier type="set" value="true" field="hidden"><conditions><condition type="atLeast" value="1" field="selections" scope="parent" childId="66a86271-534d-4fb2-b595-bc916191c8fa" shared="true" includeChildSelections="true" includeChildForces="true" /></conditions></modifier></modifiers></entryLink></entryLinks>
@@ -383,16 +383,16 @@ Puntos de Destino:
     
     <selectionEntry id="bad4-89cb-00fe-5b64" name="Ropas/Pieles" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="3.0" /></costs>
-    <modifiers><modifier type="increment" field="Blindaje" value="2" /></modifiers><rules><rule name="Efecto"><description>+2 Blindaje.</description></rule></rules></selectionEntry>
+    <modifiers><modifier type="increment" field="auto-blindaje-ct" value="2" /></modifiers><rules><rule name="Efecto"><description>+2 Blindaje.</description></rule></rules></selectionEntry>
     <selectionEntry id="f4c7-9326-444e-58dc" name="Huesos/Pellejos" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="7.0" /></costs>
-    <modifiers><modifier type="increment" field="Blindaje" value="3" /></modifiers><rules><rule name="Efecto"><description>+3 Blindaje.</description></rule></rules></selectionEntry>
+    <modifiers><modifier type="increment" field="auto-blindaje-ct" value="3" /></modifiers><rules><rule name="Efecto"><description>+3 Blindaje.</description></rule></rules></selectionEntry>
     <selectionEntry id="75d3-5693-f0ac-5a2e" name="Cuero/Escamas" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="12.0" /></costs>
-    <modifiers><modifier type="increment" field="Blindaje" value="4" /></modifiers><rules><rule name="Efecto"><description>+4 Blindaje.</description></rule></rules></selectionEntry>
+    <modifiers><modifier type="increment" field="auto-blindaje-ct" value="4" /></modifiers><rules><rule name="Efecto"><description>+4 Blindaje.</description></rule></rules></selectionEntry>
     <selectionEntry id="4920-8ade-930d-5ece" name="Escudo" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="6.0" /></costs>
-    <modifiers><modifier type="increment" field="Blindaje" value="2" /><modifier type="increment" field="Combate" value="-1" /></modifiers><rules><rule name="Efecto"><description>+2 Blindaje. -1 Combate.</description></rule></rules></selectionEntry>
+    <modifiers><modifier type="increment" field="auto-blindaje-ct" value="2" /><modifier type="increment" field="29cd-abc5-a63d-544c" value="-1" /></modifiers><rules><rule name="Efecto"><description>+2 Blindaje. -1 Combate.</description></rule></rules></selectionEntry>
     <selectionEntry id="d21a-cb0e-6266-55b0" name="Hierbas místicas" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="8.0" /></costs>
     <constraints><constraint id="bd562014-bea5-4dfb-bdf4-c21f93ca2e73" type="max" value="3" field="selections" scope="model" /></constraints></selectionEntry>
