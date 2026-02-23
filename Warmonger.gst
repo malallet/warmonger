@@ -15,7 +15,7 @@
         <characteristicType id="5e7c-8499-781b-577d" name="Fuerza" /><characteristicType id="7e79-501d-d634-5b78" name="Penetración" /><characteristicType id="1e7a-8f74-75f8-5c3c" name="Alcance" /><characteristicType id="ad64-1590-3060-56f8" name="Reglas" />
       </characteristicTypes>
     </profileType>
-  </profileTypes>
+  <profileType id="e9c1-3a0b-4d2e-8a11" name="Equipo"><characteristicTypes><characteristicType id="b3a6-1c0e-4d1a-9a20" name="Blindaje" /><characteristicType id="c7d2-9b15-4a33-8f01" name="Reglas" /></characteristicTypes></profileType></profileTypes>
   <categoryEntries>
     <categoryEntry id="3810-0dc3-a6f3-56c7" name="Configuración" hidden="false" />
     <categoryEntry id="67fb-5cb8-7892-5275" name="Reglas de la banda" hidden="false" />
